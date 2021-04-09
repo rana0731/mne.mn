@@ -1,0 +1,25 @@
+{
+  "name": "mne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss css/tailwind.css -o css/styles.css",
+    "watch": "postcss css/tailwind.css -o css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss-cli": "^8.3.1",
+    "postcss-nested": "^5.0.5",
+    "tailwind-filter-utilities": "^2.0.0",
+    "tailwindcss-filters": "^3.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.1.1"
+  }
+}
